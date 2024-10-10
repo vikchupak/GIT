@@ -1,3 +1,5 @@
+## Rebase between different branches
+
 `git rebase master` - call when being in a feature branch. The original feature branch with its commits is copied (there will be new commit hashes) on top of the master branch.
 The rebased branch can then be merged with fast-forward.
 
@@ -11,3 +13,7 @@ Original branch name and copied branch name are the same.
 | <img width="498" alt="01" src="https://github.com/user-attachments/assets/65fae8e2-c857-4b08-99c3-72028d2d2270"> | <img width="498" alt="02" src="https://github.com/user-attachments/assets/2780d0b8-1593-4230-b699-0f9c3f5068ea"> |
 | <img width="498" alt="01" src="https://github.com/user-attachments/assets/0a2dfa29-afef-4a53-a480-dff70cb068f7"> | <img width="498" alt="01" src="https://github.com/user-attachments/assets/c71740a9-6c95-464a-9c2f-11c3676abb03"> |
 | <img width="498" alt="01" src="https://github.com/user-attachments/assets/8dc040b6-5c5f-4ab9-9cdc-50ee429c6503"> | <img width="498" alt="01" src="https://github.com/user-attachments/assets/8dc040b6-5c5f-4ab9-9cdc-50ee429c6503"> |
+
+## Rebase on the same branch
+
+`git pull --rebase` or `git pull -r` - call when being in a feature branch.
