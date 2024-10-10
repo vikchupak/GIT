@@ -1,7 +1,7 @@
 ## Rebase between different branches
 
 `git rebase master` - call when being in a feature branch. The original feature branch with its commits is copied (there will be new commit hashes) on top of the master branch.
-The rebased branch can then be merged with fast-forward.
+**The rebased branch can then be merged with fast-forward**.
 
 The original branch is not visible, but it is not deleted, and can be accessed via reflog or ORIG_HEAD.
 ORIG_HEAD allows to switch only to the most resent original branch, with reflog we can switch to older original branches.
@@ -16,4 +16,5 @@ Original branch name and copied branch name are the same.
 
 ## Rebase on the same branch
 
-`git pull --rebase` or `git pull -r` - call when being in a feature branch.
+- `git pull --rebase` or `git pull -r` - call when being in a feature branch.
+- `git pull` is essentially `git fetch + git merge`
