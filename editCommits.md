@@ -1,0 +1,4 @@
+- `git reset —hard HEAD~` - remove completely last commit
+- `git reset (--soft) HEAD~` - undo last commit, but keep changes
+- `git commit --amend` - update last commit. To include additional changes to last commit we need `git add .` Use `--no-edit` flag when we don't want to edit commit message.
+- `git revert <commit hash>` - create a new commit that reverts the specific commit or range of commits.
