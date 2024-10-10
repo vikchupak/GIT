@@ -1,4 +1,4 @@
-`git rebase master` - call when being in feature a branch. The original feature branch with its commits is copied (there will be new commit hashes) on top of the master branch.
+`git rebase master` - call when being in a feature branch. The original feature branch with its commits is copied (there will be new commit hashes) on top of the master branch.
 The rebased branch can then be merged with fast-forward.
 
 The original branch is not visible, but it is not deleted, and can be accessed via reflog or ORIG_HEAD.
