@@ -7,7 +7,7 @@ In Git, a **fast-forward merge** occurs when the current branch (e.g., `master`)
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | <img width="498" alt="01" src="https://github.com/user-attachments/assets/f32c9d73-3b58-4cea-a342-30bec41e1084"> | <img width="498" alt="02" src="https://github.com/user-attachments/assets/419213ef-2900-4208-aca1-4adfddf7e6b4"> |
 
-## Fast-forward merge vs No fast-forward:
+## Fast-forward merge vs No fast-forward
 - **Fast-Forward** merges don't create a new commit; they simply move the branch pointer.
 - **No Fast-Forward** (`--no-ff`) forces a merge commit, even if a fast-forward is possible. This is useful when you want to keep a clear record of merges in the commit history.
 
