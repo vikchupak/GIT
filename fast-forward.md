@@ -4,8 +4,8 @@
 In Git, a **fast-forward merge** occurs when the current branch (e.g., `master`) can simply ***move its pointer to the source branch (there will NOT be new commit hashes)*** without any conflicts or need for merging additional commits. This happens when the current branch is a direct ancestor of the source branch.
 
 | Before merge to master | After merge to master |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| <img width="498" alt="01" src="https://github.com/user-attachments/assets/f32c9d73-3b58-4cea-a342-30bec41e1084"> | <img width="498" alt="02" src="https://github.com/user-attachments/assets/419213ef-2900-4208-aca1-4adfddf7e6b4"> |
+| ---------------------- | --------------------- |
+| <img width="498" alt="01" src="https://github.com/user-attachments/assets/32737aa5-749c-4df6-92c0-250ea17945fc"><img width="498" alt="01" src="https://github.com/user-attachments/assets/f32c9d73-3b58-4cea-a342-30bec41e1084"> | <img width="996" alt="02" src="https://github.com/user-attachments/assets/419213ef-2900-4208-aca1-4adfddf7e6b4"> |
 
 ## Fast-forward merge vs No fast-forward
 - **Fast-Forward** merges don't create a new commit; they simply move the branch pointer.
