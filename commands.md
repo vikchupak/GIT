@@ -1,2 +1,2 @@
 - `git branch --show-current` - print branch name
-- `git log --oneline -n 10` - print last 10 commits messages
+- `git log --oneline -n 10` - print last 10 commits' messages
