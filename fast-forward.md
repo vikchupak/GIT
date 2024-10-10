@@ -1,7 +1,7 @@
 - A target branch - a branch to which a merge is made.
 - A source branch - a brach which is merged.
 
-In Git, a **fast-forward merge** occurs when the current branch (e.g., `master`) can simply **move its pointer to the source branch** (e.g., `feature branch`) without any conflicts or need for merging additional commits. This happens when the current branch is a direct ancestor of the source branch.
+In Git, a **fast-forward merge** occurs when the current branch (e.g., `master`) can simply ***move its pointer to the source branch (there will NOT be new commit hashes)*** without any conflicts or need for merging additional commits. This happens when the current branch is a direct ancestor of the source branch.
 
 | Before merge to master | After merge to master |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
