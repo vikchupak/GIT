@@ -49,8 +49,8 @@ git config --local --list
 ```
 To set repository-specific configurations:
 ```bash
-sudo git config --local user.name "Your Name"
-sudo git config --local user.email "your.email@example.com"
+sudo git config [--local] user.name "Your Name"
+sudo git config [--local] user.email "your.email@example.com"
 ```
 
 ### Viewing all Configurations:
