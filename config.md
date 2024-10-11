@@ -59,3 +59,8 @@ You can run the following to see all configurations across the different levels 
 git config --list --show-origin
 ```
 This will show you where each configuration setting is coming from.
+
+# Rebase config
+
+<img width="546" alt="pull_from_another_branch" src="https://github.com/user-attachments/assets/fcd7fb21-dbf8-4713-ac7e-280707e765a0">
+
