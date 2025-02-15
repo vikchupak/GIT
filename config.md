@@ -33,8 +33,8 @@ git config --global --list
 ```
 To set user-specific configurations:
 ```bash
-sudo git config --global user.name "Your Name"
-sudo git config --global user.email "your.email@example.com"
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
 ```
 
 ### 3. **Repository-specific Git Configuration** (`--local`)
