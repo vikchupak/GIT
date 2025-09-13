@@ -72,6 +72,8 @@ git config [--local] --list
 Set host alias from `.ssh/config` file
 ```bash
 git remote set-url origin git@<host-alias>:vikchupak/github-actions.git
+# OR
+git config remote.origin.url "git@<host-alias>:vikchupak/github-actions.git"
 ```
 
 <img width="467" height="246" alt="image" src="https://github.com/user-attachments/assets/09f9400f-0fb4-4879-ad68-32772083d76f" />
