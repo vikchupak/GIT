@@ -60,6 +60,22 @@ git config --list --show-origin
 ```
 This will show you where each configuration setting is coming from.
 
+# Use different ssh keys for repos
+
+View `remote.origin.url`
+```bash
+git remote -v
+# OR
+git config [--local] --list
+```
+
+Set host alias from `.ssh/config` file
+```bash
+git remote set-url origin git@<host-alias>:vikchupak/github-actions.git
+```
+
+<img width="467" height="246" alt="image" src="https://github.com/user-attachments/assets/09f9400f-0fb4-4879-ad68-32772083d76f" />
+
 # Rebase config
 
 <img width="546" alt="pull_from_another_branch" src="https://github.com/user-attachments/assets/fcd7fb21-dbf8-4713-ac7e-280707e765a0">
